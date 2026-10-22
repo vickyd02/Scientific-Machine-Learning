@@ -52,14 +52,6 @@ On the practical side, the course builds fluency in PyTorch for building and tra
 
 Finally, the course trains judgment about when SciML methods are worth using. That means assessing accuracy, convergence, cost, and failure modes against conventional solvers, distinguishing approximation error from optimization error, and recognizing when a result is a property of the method versus an artifact of a particular seed or training budget.
 
-## Repository contents
-
-| Assignment | Topic | Key ideas |
-|---|---|---|
-| HW00 | MLP function approximation | Universal Approximation Theorem; Bernstein polynomials vs. ReLU networks; sigmoid and ReLU derivatives; Gibbs-like behavior on a discontinuity; spectral bias and depth; composing networks for multi-scale targets; L1 vs. L2 regularization |
-
-*Further assignments and the final project will be added as the course progresses.*
-
 ## Final project (in progress)
 
 The capstone project applies SciML methods to power-systems planning: estimating how much large data-center load a transmission-constrained grid node can host when paired with on-site battery storage. It combines neural-operator surrogates, physics-embedded power-flow layers, conformal prediction for uncertainty quantification, and transfer learning across weather years.
